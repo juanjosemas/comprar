@@ -15,7 +15,7 @@
 
 body {
     /*background: linear-gradient(to bottom,var(--purple),var(--blue-light))*/;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('fruta.webp');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('fruta.jpg');
     height: 100vh;   
     font-family: 'Prompt', sans-serif;
 }
