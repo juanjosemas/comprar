@@ -1,0 +1,127 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+   --white: #fafafb;
+   --purple:#9a67ea;
+   --blue-light:#04d4c3;
+   --blue-dark:#2a73c2;
+   --green: #2c7b90;
+
+}
+
+body {
+    /*background: linear-gradient(to bottom,var(--purple),var(--blue-light))*/;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('fruta.webp');
+    height: 100vh;   
+    font-family: 'Prompt', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*PERFIL*/
+
+
+.perfil span {
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+#fecha {
+    color: var(--white);
+    padding: 2px 0 0px 0px;
+
+}
+
+
+
+
+/*AGREGAR TAREA*/
+/* Donde ingresar producto */
+.agregar-tarea {
+    background-color: var(--white) ;
+    border-radius: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.agregar-tarea input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white);
+    padding-left: 10px;
+
+}
+/* Tamaño donde agregar producto */
+.agregar-tarea input::placeholder {
+   font-size: 1rem;
+   color: gray;
+}
+
+/* Boton + de agregar producto */
+.agregar-tarea i{
+    font-size: 30px;
+    color: var(--purple);
+
+}
+.agregar-tarea i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/*SECCION DE TAREA */
+
+
+.seccion-tarea li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,var(--blue-dark),var(--green));
+    border-radius: 15px;
+    padding: 10px;
+    color: var(--white);
+    margin: 5px 0;
+}
+
+/* Para marcar el circulo de la tarea*/
+.seccion-tarea i {
+    font-size: 15px;
+}
+
+/* Nombre de la tarea */
+.seccion-tarea > ul p {
+    font-size: 1rem;
+
+}
+
+
+.seccion-tarea i:hover {
+    color: var(--blue-light);
+    cursor: pointer;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color : var(--blue-light);
+} 
+
+
+
+
+
