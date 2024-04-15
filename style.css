@@ -5,12 +5,8 @@
 }
 
 :root {
-   --white: #fafafb;
-   --purple:#9a67ea;
-   --blue-light:#04d4c3;
    --blue-dark:#2a73c2;
    --green: #2c7b90;
-
 }
 
 body {
@@ -20,7 +16,6 @@ body {
     background-attachment: fixed;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('fruta.jpg');
     height: 100vh;   
-    font-family: 'Prompt', sans-serif;
 }
 
 .container {
@@ -31,27 +26,11 @@ body {
     font-family: Piedra;
 }
 
-/*PERFIL*/
-
-
-.perfil span {
-    color: var(--white);
-    letter-spacing: 1px;
-}
-
-/*#fecha {
-    color: blue;
-    padding: 2px 0 0px 0px;
-
-}*/
-
-
-
-
 /*AGREGAR TAREA*/
+
 /* Donde ingresar producto */
 .agregar-tarea {
-    background-color: var(--white);
+    background-color: white;
     border-radius: 15px;
     height: 50px;
     display: flex;
@@ -67,19 +46,19 @@ body {
     height: 100%;
     border-radius: 8px;
     border: none;
-    background-color: var(--white);
+    background-color: white;
     padding-left: 5px;
     font-family: Piedra;
     font-size: 20px;
     font-style: italic;
 }
+
 /* Tamaño donde agregar producto */
 .agregar-tarea input::placeholder {
    font-size: 1.4rem;
    color: gray;
    font-family: Caveat;
 }
-
 
 /* Boton + de agregar producto */
 .agregar-tarea i{
@@ -92,10 +71,7 @@ body {
     cursor: pointer;
 }
 
-
-
 /*SECCION DE TAREA */
-
 
 .seccion-tarea li {
     display: flex;
@@ -104,7 +80,7 @@ body {
     background: linear-gradient(to bottom,var(--blue-dark),var(--green));
     border-radius: 12px;
     padding: 3px;
-    color: var(--white);
+    color: white;
     margin: 5px 0;
 }
 
@@ -132,11 +108,9 @@ body {
     text-decoration-color: red;
 }
 
-
 /* El check redondo de la izquierda y cuando lo tocas se queda de ese color*/
 .fa-check-circle{
     color: red;
-    
 }
 
 /* El check redondo de la izquierda de color cuando no lleva check */
