@@ -49,7 +49,7 @@ body {
 .agregar-tarea {
     background-color: var(--white);
     border-radius: 15px;
-    height: 40px;
+    height: 50px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -67,7 +67,7 @@ body {
     padding-left: 5px;
     font-family: Piedra;
     font-size: 20px;
-
+    font-style: italic;
 }
 /* Tamaño donde agregar producto */
 .agregar-tarea input::placeholder {
@@ -79,9 +79,10 @@ body {
 
 /* Boton + de agregar producto */
 .agregar-tarea i{
-    font-size: 30px;
-    color: mediumblue;/*var(--purple);*/
+    font-size: 35px;
+    color: indigo;
 }
+
 .agregar-tarea i:hover {
     transform: scale(1.1);
     cursor: pointer;
@@ -105,7 +106,7 @@ body {
 
 /* Para marcar el circulo de la tarea*/
 .seccion-tarea i {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* Nombre y tamaño de la tarea */
@@ -125,10 +126,17 @@ body {
 .line-through{
     text-decoration: line-through;
     text-decoration-color: red;
-    color : var(--blue-light);
 }
 
 
+/* El check redondo de la izquierda y cuando lo tocas se queda de ese color*/
+.fa-check-circle{
+    color: red;
+    
+}
 
-
+/* El check redondo de la izquierda de color cuando no lleva check */
+.fa-circle{
+    color: white;
+}
 
