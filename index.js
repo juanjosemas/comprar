@@ -13,7 +13,7 @@ let id // para que inicie en 0 cada tarea tendra un id diferente
 //creacion de fecha actualizada 
 
 const FECHA = new Date ()
-fecha.innerHTML = FECHA.toLocaleDateString('es-MX',{weekday: 'long', month: 'short', day:'numeric'})
+//fecha.innerHTML = FECHA.toLocaleDateString('es-MX',{weekday: 'long', month: 'short', day:'numeric'})
 
 
 
