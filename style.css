@@ -102,10 +102,10 @@ body {
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to bottom,var(--blue-dark),var(--green));
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 12px;
+    padding: 3px;
     color: var(--white);
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 /* Para marcar el circulo de la tarea*/
@@ -115,7 +115,7 @@ body {
 
 /* Nombre y tamaño de la tarea */
 .seccion-tarea > ul p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: whitesmoke;
     font-family: Caveat;
 }
