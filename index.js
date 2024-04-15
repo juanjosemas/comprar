@@ -17,10 +17,6 @@ const FECHA = new Date ()
 
 
 
-
-
-
-
 // funcion de agregar tarea 
 
 function agregarTarea( tarea,id,realizado,eliminado) {
@@ -41,7 +37,6 @@ function agregarTarea( tarea,id,realizado,eliminado) {
 
 }
 
-
 // funcion de Tarea Realizada 
 
 function tareaRealizada(element) {
@@ -61,9 +56,6 @@ function tareaEliminada(element){
     LIST[element.id].eliminado = true
     console.log(LIST)
 }
-
-
-
 
 
 // crear un evento para escuchar el enter y para habilitar el boton 
@@ -121,8 +113,6 @@ lista.addEventListener('click',function(event){
     }
     localStorage.setItem('TODO',JSON.stringify(LIST))
 })
-
-
 
 
 let data = localStorage.getItem('TODO')
