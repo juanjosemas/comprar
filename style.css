@@ -94,6 +94,7 @@ body {
     font-size: 1.4rem;
     color: whitesmoke;
     font-family: Caveat;
+    font-style: italic;
 }
 
 /* Circulo cuando completas compra */
@@ -116,5 +117,10 @@ body {
 /* El check redondo de la izquierda de color cuando no lleva check */
 .fa-circle{
     color: white;
+}
+
+.ico{
+    border-radius: 15px;
+    margin: 0 15px 0 0;
 }
 
