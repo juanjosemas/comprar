@@ -108,6 +108,7 @@ body {
 .line-through{
     text-decoration: line-through;
     text-decoration-color: red;
+    text-decoration-style: wavy;
 }
 
 /* El check redondo de la izquierda y cuando lo tocas se queda de ese color*/
