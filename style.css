@@ -80,7 +80,7 @@ body {
     justify-content: space-between;
     background: linear-gradient(to bottom,var(--blue-dark),var(--green));
     border-radius: 12px;
-    padding: 1px;
+    padding: 2px;
     color: white;
     margin: 5px 0;
 }
