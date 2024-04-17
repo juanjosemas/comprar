@@ -123,12 +123,15 @@ body {
 
 /*Esta parte es sobre el icono para que gire */
 .ico{
-				 border-radius: 15px; 
+				 border-radius: 50%; 
 				 margin: 0 15px 0 0;
 				 animation-name: logo;
 				 animation-duration: 3s;
 			 /*	transform: rotate(0deg);*/
 		  transition: all 0.5s ease-in-out;
+		  background-color: black;
+		  border: 2px solid red;
+    box-shadow: 0 0 0 3px black;
 }
 
 @keyframes logo{
