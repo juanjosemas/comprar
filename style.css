@@ -121,8 +121,26 @@ body {
     color: white;
 }
 
+/*Esta parte es sobre el icono para que gire */
 .ico{
-    border-radius: 15px;
-    margin: 0 15px 0 0;
+				 border-radius: 15px; 
+				 margin: 0 15px 0 0;
+				 animation-name: logo;
+				 animation-duration: 3s;
+			 /*	transform: rotate(0deg);*/
+		  transition: all 0.5s ease-in-out;
 }
+
+@keyframes logo{
+   from{
+     opacity: 0;
+     transform: scale(0.5) rotate(0deg);
+}
+     
+    to{
+      opacity: 1;
+      transform: scale(1) rotate(1440deg);
+    }
+}
+
 
