@@ -53,6 +53,7 @@ body {
     font-family: Piedra;
     font-size: 20px;
     font-style: italic;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 /* Tamaño donde agregar producto */
@@ -62,7 +63,7 @@ body {
    font-family: Caveat;
 }
 
-/* Boton + de agregar producto */
+/* Boton check de agregar producto */
 .agregar-tarea i{
     font-size: 35px;
     color: indigo;
