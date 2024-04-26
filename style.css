@@ -84,6 +84,7 @@ body {
     padding: 2px;
     color: white;
     margin: 5px 0;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 /* Para marcar el circulo de la tarea*/
